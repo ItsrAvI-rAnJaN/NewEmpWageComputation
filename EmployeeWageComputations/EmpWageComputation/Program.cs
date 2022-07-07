@@ -12,6 +12,7 @@ namespace EmpWageComputation
             Console.WriteLine("Press 0 to 'Exit'");
             Console.WriteLine("Press 1 to Check Employee Attendance");
             Console.WriteLine("Press 2 to Calculate Employee Daily Wage");
+            Console.WriteLine("Press 3 to Check Employee Part or Full Time Working & Also Calculate Wages ");
             Console.Write("\nEnter Your Choice : ");
             int Choice = Convert.ToInt32(Console.ReadLine());
 
@@ -28,6 +29,11 @@ namespace EmpWageComputation
                 case 2:
                     EmpDailyWage objEmpWage = new EmpDailyWage();
                     objEmpWage.calcEmpDailyWage();
+                    break;
+
+                case 3:
+                    EmpFullOrPartTime objPartorFullTimeWages = new EmpFullOrPartTime();
+                    objPartorFullTimeWages.empDailywage();
                     break;
 
                 case 0:

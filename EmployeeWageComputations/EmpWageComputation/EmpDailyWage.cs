@@ -21,16 +21,15 @@ namespace EmpWageComputation
         {
             int CheckAttendance = random.Next(0, 2);
 
-            Console.WriteLine("\nResult :- " +
-                "");
+            Console.WriteLine("\nResult :- ");
             if (CheckAttendance == Is_present)
             {
-                Console.WriteLine("Employee is Present");
+                Console.WriteLine("Employee was Present");
                 Emp_Hrs = 8;
             }
             else
             {
-                Console.WriteLine("Employee is Absent");
+                Console.WriteLine("Employee was Absent");
                 Emp_Hrs = 0;
             }
 

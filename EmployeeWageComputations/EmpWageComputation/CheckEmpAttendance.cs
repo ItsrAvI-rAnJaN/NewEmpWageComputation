@@ -23,11 +23,11 @@ namespace EmpWageComputation
             //define logic If-else to check present or Absent 
             if (CheckAttendance == Is_Absent)
             {
-                Console.WriteLine("Employee is Absent");
+                Console.WriteLine("Employee was Absent");
             }
             else
             {
-                Console.WriteLine("Employee is Present");
+                Console.WriteLine("Employee was Present");
             }
 
         }
