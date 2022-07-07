@@ -16,7 +16,7 @@ namespace EmpWageComputation
         
         Random random = new Random();
 
-        // Creating Maethod for Employee Wage Computation...
+        // Creating Method for Employee Wage Computation...
         public void EmpWageComputation()
         {
             int CheckEmp = random.Next(0, 3);
@@ -29,7 +29,7 @@ namespace EmpWageComputation
                     EmpHrs = 8;
                     break;
                 case Is_Part_Time:
-                    Console.WriteLine("Today Employee have  Worked Full Time ");
+                    Console.WriteLine("Today Employee have  Worked Half Time ");
                     EmpHrs=4;
                     break;
 
