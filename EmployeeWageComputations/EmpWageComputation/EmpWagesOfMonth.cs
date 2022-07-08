@@ -41,7 +41,7 @@ namespace EmpWageComputation
                 }
                 EmpDailyWage = EmpHrs * Emp_Rate_Per_Hrs;
                 MnthWage += EmpDailyWage;
-                Console.WriteLine("Day {0}: Employee Wage : {1}",i,EmpDailyWage);
+                Console.WriteLine("Employee Wage : {0}",EmpDailyWage);
             }
             
             Console.WriteLine("\nEmployee Total Wage of A Months : {0}", MnthWage);
