@@ -35,7 +35,7 @@ namespace EmpWageComputation
 
             //CalCulate Daily Employee Wage..
             int dailyEmpWage = Emp_Hrs * Emp_Rate_Per_Hrs;
-            Console.WriteLine("Employee Daily Wage are : {0}", dailyEmpWage);
+            Console.WriteLine("Employee Daily Wage  : {0}", dailyEmpWage);
             
         }
         

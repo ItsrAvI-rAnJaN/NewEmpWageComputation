@@ -14,6 +14,7 @@ namespace EmpWageComputation
             Console.WriteLine("Press 2 to Calculate Employee Daily Wage");
             Console.WriteLine("Press 3 to Check Employee Part or Full Time Working & Also Calculate Wages ");
             Console.WriteLine("Press 4 to Check Employee Daily Wage Compuntations Using Switch Case");
+            Console.WriteLine("Press 5 to Calculate Employee Wages of A Months ");
             Console.Write("\nEnter Your Choice : ");
             int Choice = Convert.ToInt32(Console.ReadLine());
 
@@ -39,6 +40,10 @@ namespace EmpWageComputation
                 case 4:
                     UsingSwitchEmpComput objEmpDailyWage =new UsingSwitchEmpComput();
                     objEmpDailyWage.EmpWageComputation();
+                    break;
+                case 5:
+                    EmpWagesOfMonth objEMpWageOfMnths=new EmpWagesOfMonth();
+                    objEMpWageOfMnths.CalcEmpWagesOfMnths();
                     break;
 
                 case 0:
